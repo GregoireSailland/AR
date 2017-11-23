@@ -144,6 +144,7 @@ public class RequestPermissionsActivity extends AppCompatActivity{
                         // the app setting
 
                     } else if (Manifest.permission.WRITE_CONTACTS.equals(permission)) {
+                        // todo define strings
                         showRationale(permission, R.string.permission_denied_contacts);
                         // user did NOT check "never ask again"
                         // this is a good place to explain the user
